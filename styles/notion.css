@@ -44,7 +44,7 @@
 }
 
 .notion-header .notion-nav-header {
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
   overflow-x: auto;
 }
@@ -194,7 +194,7 @@
 .notion-page-cover-wrapper,
 .notion-page-cover-wrapper span,
 .notion-page-cover-wrapper img {
-  max-width: 1200px !important;
+  max-width: 100% !important;
   border-radius: 24px;
 }
 
@@ -358,8 +358,8 @@
 .notion-page-icon-hero.notion-page-icon-image img {
   border-radius: 20%;
 }
-.notion-page-icon-hero {
-  float: left !important; /* Aligns the element to the left */
+.notion-page-icon-hero{
+  left: 1%; /* Aligns the element to the left */
   /* Other styles... */
 }
 
