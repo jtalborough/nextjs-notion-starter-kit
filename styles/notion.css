@@ -22,7 +22,9 @@
 }
 
 .index-page {
-  --notion-max-width: 80%;
+  /*--notion-max-width: 70%;*/
+  padding-bottom: calc(max(5vh, 32px)) !important;
+  line-height: 1.65;
 }
 
 .notion-text {
@@ -44,7 +46,7 @@
 }
 
 .notion-header .notion-nav-header {
-  max-width: 100%;
+  max-width: 1280;
   margin: 0 auto;
   overflow-x: auto;
 }
@@ -194,7 +196,7 @@
 .notion-page-cover-wrapper,
 .notion-page-cover-wrapper span,
 .notion-page-cover-wrapper img {
-  max-width: 100% !important;
+  max-width: 1200 !important;
   border-radius: 24px;
 }
 
@@ -349,17 +351,17 @@
 
 /* if you don't want rounded page icon images, remove this */
 .notion-page-icon-hero.notion-page-icon-image {
-  border-radius: 10%;
+  border-radius: 30%;
   box-shadow: 0 8px 40px 0 rgb(0 0 0 / 21%);
 }
 
 
 .notion-page-icon-hero.notion-page-icon-image span,
 .notion-page-icon-hero.notion-page-icon-image img {
-  border-radius: 20%;
+  border-radius: 40%;
 }
 .notion-page-icon-hero{
-  left: 10%; /* Aligns the element to the left */
+  left: 20%; /* Aligns the element to the left */
   /* Other styles... */
 }
 
